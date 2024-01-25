@@ -4,9 +4,19 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 25 Jan 2024 14:18:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 14:36:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Reintroducerea fluxurilor RSS în Zimbra]]></title>
+            <guid>fa0871b7a25c45a68ae21142926b3943</guid>
+            <pubDate>Thu, 25 Jan 2024 14:20:26 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>Reintroducerea fluxurilor RSS în Zimbra</strong></p>
+<p>De mult timp a fost posibil să vă abonați la fluxuri RSS/ATOM din interfața de utilizare Zimbra Classic. Acest nou Zimlet poate fi folosit pentru a vă abona la fluxuri RSS/ATOM din Webmail  Zimbra.</p>
+<p>În acest fel, puteți fi la curent cu canalul dvs. preferat de Youtube, blogul Zimbra sau, mai important, imbunatatirile noi  Zimbra.</p>
+<p><img src="/_resources/0f685e3333f44fd986609bf015f3fde7.gif" /></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Previzualizarea la imprimare a unui atașament în Zimbra Modern UI]]></title>
             <guid>8026bb238b054b208aa770ea395cd899</guid>
