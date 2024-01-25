@@ -4,11 +4,29 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 25 Jan 2024 13:08:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 13:44:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
-            <title><![CDATA[Adăugarea de imagini în semnăturile tale de e-mail în UI modern**]]></title>
+            <title><![CDATA[Previzualizarea la imprimare a unui atașament în Zimbra Modern UI]]></title>
+            <guid>8026bb238b054b208aa770ea395cd899</guid>
+            <pubDate>Thu, 25 Jan 2024 13:14:22 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>Previzualizarea la imprimare a unui atașament în Zimbra Modern UI</strong></p>
+<p>Acest Zimlet adaugă un link pentru a previzualiza un atașament fără a fi nevoie să descărcați și să-l salvați, reducând numărul de interacțiuni ale utilizatorului.</p>
+<p>Acest Zimlet a fost creat pentru utilizatorii Zimbra Modern UI care trebuie să imprime multe atașamente PDF în timpul fluxului lor de lucru zilnic. Aceasta necesită mai întâi să stocați PDF-ul local, apoi să deschideți Windows Explorer pentru a naviga la el.</p>
+<p>În plus, uneori, PDF-ul salvat local nu va avea extensia de fișier, ceea ce înseamnă că utilizatorilor le este greu să deschidă fișierul după ce l-au salvat.</p>
+<p>Acest Zimlet elimină necesitatea de a salva fișierul atașat PDF la nivel local și oferă un buton de imprimare din interfața de utilizare.</p>
+<p><img src="/_resources/83ef804db7b7400a88c0b0f7afb14ca4.gif" /></p>
+<p><img src="/_resources/0dfce12eee2e49378acd74cb4f3cf486.png" /></p>
+<p><img src="/_resources/e6e95906342042d6a343478b46a67a2f.png" /><br />
+<img src="/_resources/12e8fbe98a50475b822a94fbbd634ca3.png" /><br />
+In dependenta de setarile locale a imprimantelor puteti printa prin (1) si (2). Sau sa alegeti setarile aditionale (3) a imprimantllor din sistem.<br />
+<img src="/_resources/1447332a48584850965ad684c1e65b53.png" /><br />
+<img src="/_resources/8313ab584b8c4a9ab0cd5c4e5f67761c.png" /></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Adăugarea de imagini în semnăturile tale de e-mail în UI modern]]></title>
             <guid>13ba13b3f002461c82f2f244e6c24a58</guid>
             <pubDate>Thu, 25 Jan 2024 12:10:42 GMT</pubDate>
             <content:encoded><![CDATA[<p><strong>Adăugarea de imagini în semnăturile tale de e-mail în UI modern</strong></p>
