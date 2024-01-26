@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="/_assets/main.css" />
+
+    <title>Setarea autentificarii bifactoriale (2FA) in Zimbra Modern UI - Zimbra WIKI</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navigation">
+        <a href="/">Zimbra WIKI</a>
+      </nav>
+      <article>
+        <header>
+          <h1 class="article-title">Setarea autentificarii bifactoriale (2FA) in Zimbra Modern UI</h1>
+          <div class="article-info">
+            <div>
+              <span
+                >Created At：<time datetime="1706278633737"
+                  >2024-01-26 16:17</time
+                ></span
+              >
+              <span
+                >Updated At：<time datetime="1706279903847"
+                  >2024-01-26 16:38</time
+                ></span
+              >
+            </div>
+            
+          </div>
+        </header>
+        <div class="article-content markdown-body"><p>Bună ziua clienți, parteneri și prietenii Zimbra,</p>
+<p>Ți-a fost piratat vreodată e-mailul? Configurați autentificarea cu doi factori (2FA) pentru un nivel suplimentar de securitate pentru contul dvs. Zimbra.</p>
+<p>Cu 2FA activat, utilizați parola și un cod generat pe smartphone pentru a vă conecta la contul Zimbra.</p>
+<p>Activarea 2FA este ușoară. Veți avea nevoie de acces la contul dvs. Zimbra și la telefonul smartphone pentru a finaliza configurarea 2FA.</p>
+<p>1. În Webmail-ul Zimbra, faceți clic pe meniul ”Setări”.</p>
+<p>2. Alegeți Setări &gt; Conturi.</p>
+<p>3. Selectați contul dvs. și faceți clic pe Configurare autentificare cu doi factori.</p>
+<p><img src="/_resources/beba496b57254d10b0c0d7f138a3d771.png" /></p>
+<p>4. Introduceți parola pentru contul e-mail Zimbra.</p>
+<p>5. Faceţi clic pe Configurare autentificare cu doi factori.</p>
+<p><img src="/_resources/a403265470774c298f2106f63be07ea0.png" /></p>
+<p>Următorii pași necesită smartphone-ul dvs.</p>
+<p>6. Faceți clic pe adresa URL pentru a vedea aplicațiile de autentificare disponibile pentru smartphone-ul dvs. Descărcați aplicația de autentificare și instalați-o pe smartphone. Faceți clic pe următorul.</p>
+<p><img src="/_resources/0b29a965927041f389e7220ec3552dc3.png" /></p>
+<p>Recomandam sa folositi Autentificatorul Google</p>
+<p><img src="/_resources/e31b701d7e5b45159d6c43db064e125f.png" /></p>
+<p>7. Scanați codul de pe ecran folosind aplicația de autentificare de pe telefonul inteligent. Faceți clic pe Următorul.</p>
+<p><img src="/_resources/4f5e21504cd0413cba35dc20019c2a5e.png" /></p>
+<p>8. Introduceți codul furnizat pe smartphone. Faceți clic pe Verificare pentru a finaliza configurarea 2FA.</p>
+<p><img src="/_resources/dedec581b15e4e72b4b198a7ae257fb8.png" /></p>
+<p>Succes... Ai activat 2FA pentru contul tău Zimbra!</p>
+<p>Acum, când vă conectați la contul dvs. Zimbra, vi se va solicita un nou cod din aplicația de autentificare de pe telefon.</p>
+<p>Ce se întâmplă dacă nu aveți telefonul dvs. sau dacă telefonul rămâne fără baterii?<br />
+Aveți 10 coduri unice de folosit dacă nu aveți telefonul disponibil. Doar faceți clic pe linkul „10 coduri neutilizate” și imprimați cele 10 coduri. Păstrați codurile la îndemână, astfel încât să fie disponibile atunci când aveți nevoie de ele.</p>
+<p><img src="/_resources/7244ea805d224104bd0d197c170006bf.png" /></p>
+<p><strong>Notă</strong> : Dacă nu vedeți opțiunea <strong>Configurați autentificarea cu doi factori</strong> în Preferințele dvs. Zimbra, operatorul dvs. nu a activat caracteristica 2FA. Vă rugăm să contactați administratorul de sistem sau furnizorul de servicii de e-mail pentru mai multe informații.</p>
+<h2 id="pentru-administratori">Pentru administratori</h2>
+<p>Pentru a activa autentificarea cu doi factori pe clasa <em><strong>implicită</strong></em> de serviciu, puteți rula din linia de comandă ca utilizator <em><strong>zimbra</strong></em> :</p>
+<p>zmprov mc default zimbraFeatureTwoFactorAuthAvailable TRUE</p>
+<p>De asemenea, puteți activa autentificarea în doi factori prin interfața web a consolei de administrare, accesați Configurare -&gt; Clasă de serviciu -&gt; implicit -&gt; Avansat și bifați Activați autentificarea cu doi factori. Nu uitați să faceți clic pe <strong>Salvați</strong> .</p>
+<p><img src="/_resources/ea6c06df5ac4411b82ae7250fee09e3d.png" /></p>
+<p>Repetați acești pași pentru toate clasele de servicii în care doriți să activați 2FA.</p>
+</div>
+      </article>
+    </div>
+  </body>
+</html>
