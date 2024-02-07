@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 26 Jan 2024 14:41:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Feb 2024 10:37:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -47,12 +47,42 @@ Aveți 10 coduri unice de folosit dacă nu aveți telefonul disponibil. Doar fac
         </item>
         <item>
             <title><![CDATA[Reintroducerea fluxurilor RSS în Zimbra]]></title>
-            <guid>fa0871b7a25c45a68ae21142926b3943</guid>
+            <guid>23d3235de27748a294a950b9a8babf88</guid>
             <pubDate>Thu, 25 Jan 2024 14:20:26 GMT</pubDate>
             <content:encoded><![CDATA[<p><strong>Reintroducerea fluxurilor RSS în Zimbra</strong></p>
-<p>De mult timp a fost posibil să vă abonați la fluxuri RSS/ATOM din interfața de utilizare Zimbra Classic. Acest nou Zimlet poate fi folosit pentru a vă abona la fluxuri RSS/ATOM din Webmail  Zimbra.</p>
-<p>În acest fel, puteți fi la curent cu canalul dvs. preferat de Youtube, blogul Zimbra sau, mai important, imbunatatirile noi  Zimbra.</p>
-<p><img src="/_resources/0f685e3333f44fd986609bf015f3fde7.gif" /></p>
+<p>De mult timp a fost posibil să vă abonați la fluxuri RSS/ATOM din interfața de utilizare Zimbra Classic. Acest nou Zimlet poate fi folosit pentru a vă abona la fluxuri RSS/ATOM din Webmail Zimbra.</p>
+<p>În acest fel, puteți fi la curent cu canalul dvs. preferat de știri, blog, sau noutăți instituționale.</p>
+<p><img src="/_resources/2bee8720efb8443ab0082fb665c4b3f2.gif" /></p>
+<p>Pentru a adaugă un flux de știri sau un newsletter mai intai de toate este necesar de a găsi URL-ul catre aceste site-uri de stiri. Nu fiecare site este setat sa ofere FEED-uri sau RSS-uri, cum doriti. Ca deobicei un site abilitat cu aceasta functie utila are o iconita pe site care face legatura cu un URL de tipul <a title="https://example.com/feed" href="https://example.com/feed">https://example.com/feed</a> sau <a title="https://example.com/rss.xml" href="https://example.com/rss.xml">https://example.com/rss.xml</a></p>
+<p>Iata un exemplu. Situl <a title="https://dnsc.ro" href="https://dnsc.ro">https://dnsc.ro</a> care are in josul paginii un link<br />
+<img src="/_resources/95cdd6e637184f1f81c86b3fc5ca4596.png" /><br />
+Acest link se redirecționează la <a title="https://dnsc.ro/feed" href="https://dnsc.ro/feed">https://dnsc.ro/feed</a> , acesta este fluxul de știri.<br />
+Acest link este o scurtătura catre noutățile de pe site care poate fi utilizat la setarea respectiva din Zimbra Webmail. La accesarea  acestuia in browser trebuie sa fie afișat un cod sursa XML</p>
+<p><img src="/_resources/1a38091a446a4c79b4e71692ea35f90e.png" /></p>
+<p>Pentru a seta un oarecare flux de știri RSS/ATOM copiati URL-ul fluxului si urmați pasii de mai jos :</p>
+<ol>
+<li>Accesați Webmail-ul Zimbra , creați o mapa noua prin clic dreapta pe roata zimțată</li>
+</ol>
+<p><img src="/_resources/c3ecec8498a74b60bc6ee9c268019ce5.png" /></p>
+<ol start="2">
+<li>Dati denumire fluxului, alegeți culoarea folderului, setati bifa pe RSS/ATOM , inserati URL-ul fluxului selectati folderul in care va aparea fluxul si dati cu OK</li>
+</ol>
+<p><img src="/_resources/1d7b5c32d79e471090b3f5d4a810ef84.png" /></p>
+<ol start="3">
+<li>In final veți vedea un folder nou in "Inbox"</li>
+</ol>
+<p><img src="/_resources/8449abe34839452b96969b04b7682648.png" /></p>
+<ol start="4">
+<li>Fluxul poate fi mutat in orice mapa pentru comoditate. Prin clic dreapta pe mapa fluxului RSS/ATOM pot fi modificate setările adiționale (culoarea mapei, timpul de sincronizare, partajare )</li>
+</ol>
+<p><img src="/_resources/aff3b8cb6c264f7b8465aeb998fc8417.png" /></p>
+<p><img src="/_resources/db0c9681d85c4ea390f2815aaf986d87.png" /></p>
+<p> <strong>Exemple de agregatoare RSS:</strong></p>
+<p><strong>Feedly</strong>: <a title="https://feedly.com/" href="https://feedly.com/">https://feedly.com/</a></p>
+<p><strong>Inoreader</strong>: <a title="https://www.inoreader.com/" href="https://www.inoreader.com/">https://www.inoreader.com/</a></p>
+<p><strong>Despre RSS/ATOM</strong> <a title="https://idsi.md/files/file/prezentari_practica_studenti/RSS%20&amp;%20ATOM.pdf" href="https://idsi.md/files/file/prezentari_practica_studenti/RSS%20&amp;%20ATOM.pdf">https://idsi.md/files/file/prezentari_practica_studenti/RSS &amp; ATOM.pdf</a></p>
+<p> </p>
+<p> </p>
 ]]></content:encoded>
         </item>
         <item>
