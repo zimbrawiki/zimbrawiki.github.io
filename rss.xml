@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 07 Feb 2024 10:58:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Feb 2024 11:27:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -34,7 +34,9 @@
 <p>KeePassXC este un program gratuit și open-source care te ajută să îți gestionezi parolele în siguranță.<br />
 Spre deosebire de alte soluții, KeePassXC nu stochează parolele tale în cloud, ci le păstrează criptate local pe dispozitivul tău.</p>
 <p>Aplicația KeePassXC  poate fi descărcată de pe următoarea sursa <a title="https://keepassxc.org/download/#" href="https://keepassxc.org/download/">https://keepassxc.org/download/#.</a>  Adițional este necesara instalarea "MSVC Redistributable" <a title="https://aka.ms/vs/17/release/vc_redist.x64.exe" href="https://aka.ms/vs/17/release/vc_redist.x64.exe">https://aka.ms/vs/17/release/vc_redist.x64.exe</a></p>
-<p>Pentru a o utiliza in scopul păstrării credentiialelor si eventual tokenul TOTP pentru 2FA urmați următoarele instructiuni</p>
+<p><img src="/_resources/87df9942c277415587acc7774dc58445.gif" /></p>
+<p><img src="/_resources/99be3ba69c3e43929428f4452650d509.gif" /></p>
+<p>Pentru a o utiliza in scopul păstrării credentiialelor si eventual tokenul TOTP pentru 2FA urmați următoarele instrucțiuni</p>
 <p><strong>1.  Crearea baze de date de parole</strong></p>
 <p>După instalarea  si lansarea aplicației KeePassXC se propune de a crea o baza de date destinata păstrării parolelor si token-ului TOTP</p>
 <p><img src="/_resources/8633338d0d214c8888b56a8029db04db.png" /></p>
