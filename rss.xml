@@ -4,11 +4,373 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 07 Feb 2024 10:37:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Feb 2024 10:58:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
-            <title><![CDATA[Setarea autentificarii bifactoriale (2FA) in Zimbra Modern UI]]></title>
+            <title><![CDATA[Culoarea mesajului in Zimbra]]></title>
+            <guid>0edf218258354466b3ae150256c5f17d</guid>
+            <pubDate>Wed, 31 Jan 2024 12:30:43 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="culoarea-mesajului">Culoarea mesajului</h1>
+<p><img src="/_resources/c276a8454c374fb19b1665a188d421a6.png" /></p>
+<p>In WebUI al Zimbra exista o caracteristică fantastică (dar greu de găsit) care vă permite să setați culoarea mesajelor de e-mail pentru a se potrivi cu culoarea etichetei aplicate. Deci, dacă aplicați o etichetă galbenă unui mesaj, mesajul va fi afișat cu galben în căsuța dvs. de e-mail.</p>
+<p><strong>Pentru a activa această funcție:</strong></p>
+<p>Faceți clic pe fila Preferințe și selectați Mail. În zona Afișare mesaje, selectați opțiunea Culoarea mesajului, așa cum se arată mai jos.</p>
+<p>Notă: nu uitați să faceți clic pe Salvare.</p>
+<p><img src="/_resources/924588696e0a45f587c95f9f78591ac0.png" /></p>
+<p>Înainte de a activa Message Color, căsuța mea primită arăta astfel:</p>
+<p><img src="/_resources/d882b0e2755341f98a989adcfac65605.png" /></p>
+<p>Acum arată așa, cu culoarea etichetei aplicată întregului mesaj.</p>
+<p><img src="/_resources/0494f4fff9f74800a4ddb041b585d7d8.png" /></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Utilizarea managerului de parole pentru păstrarea credentialelor si token-ului 2FA (TOTP)]]></title>
+            <guid>acd0dac3dab14fdd95e030abdd64cd1e</guid>
+            <pubDate>Mon, 29 Jan 2024 13:54:43 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>Ghid de  utilizarea managerului de parole pentru păstrarea credențialelor si token-ului 2FA (TOTP)</strong></p>
+<p>Autentificarea bifactoriala este metoda de autentificare în doi factori (2FA) care adaugă un strat suplimentar de securitate conturilor online bazata pe TOTP: (Parolă unică bazată pe timp, en. Time-based One-Time Password) Aceasta este o metodă de autentificare care generează parole unice de unică folosință bazate pe timpul curent.</p>
+<p>Ca aplicație pentru păstrarea tokenelor TOTP ce poate fi instalata pe PC se propune KeePassXC. (versiunea portabila sau instalabila)</p>
+<p>KeePassXC este un program gratuit și open-source care te ajută să îți gestionezi parolele în siguranță.<br />
+Spre deosebire de alte soluții, KeePassXC nu stochează parolele tale în cloud, ci le păstrează criptate local pe dispozitivul tău.</p>
+<p>Aplicația KeePassXC  poate fi descărcată de pe următoarea sursa <a title="https://keepassxc.org/download/#" href="https://keepassxc.org/download/">https://keepassxc.org/download/#.</a>  Adițional este necesara instalarea "MSVC Redistributable" <a title="https://aka.ms/vs/17/release/vc_redist.x64.exe" href="https://aka.ms/vs/17/release/vc_redist.x64.exe">https://aka.ms/vs/17/release/vc_redist.x64.exe</a></p>
+<p>Pentru a o utiliza in scopul păstrării credentiialelor si eventual tokenul TOTP pentru 2FA urmați următoarele instructiuni</p>
+<p><strong>1.  Crearea baze de date de parole</strong></p>
+<p>După instalarea  si lansarea aplicației KeePassXC se propune de a crea o baza de date destinata păstrării parolelor si token-ului TOTP</p>
+<p><img src="/_resources/8633338d0d214c8888b56a8029db04db.png" /></p>
+<p><strong>2. Denumirea bazei de date poate fi setata aliator</strong></p>
+<p><img src="/_resources/7265c5d5e5554f1cab12c2247730b81f.png" /></p>
+<p><strong>Setari aditionale (poate fi omis)</strong></p>
+<p><strong><img src="/_resources/e7d601837d5f40e693029c3359a148db.png" /></strong></p>
+<p><strong>3. Setarea parolei-master pentru acces la baza de date (Atenție, setati o parola sigura si memorati-o, aceasta parola nu poate fi recuperata)</strong></p>
+<p><img src="/_resources/915ae87d7ffc4954bc941cd949f454bd.png" /></p>
+<p>Nota:</p>
+<p>Generați aliator parola - la accesarea acestui buton va fi generata o parola aliatoare</p>
+<p>Vizualizați parola - la accesarea acestui buton parola va fi afișată</p>
+<p><strong>4. Va fi propusa optiunea de salvare a bazei de date cu parole intr-o locație pe PC, alegeti locația potrivita pentru dvs.</strong></p>
+<p><img src="/_resources/90f641bcede840b9986d23e916dfd9be.png" /></p>
+<p><strong>5. In interfața aplicației apăsați butonul "+" pentru a crea o inregistrare noua</strong></p>
+<p><img src="/_resources/4781ccaedaab4292b345d1e086f1483c.png" /></p>
+<p><strong>7. Crearea unei înregistrări noi (ex: credențialele pentru contul e-mail)</strong></p>
+<p><strong><img src="/_resources/6274411ec42840c88b56f531066ce8dd.png" /></strong></p>
+<p><strong>8. Setarea cheii TOTP. Clic dreapta pe înregistrarea pentru care se adaugă TOTP</strong></p>
+<p><img src="/_resources/ef8b35c12925416bac4edddf2715ba37.png" /></p>
+<p><strong>9. Activarea 2FA in Webmail Zimbra conform ghidului. Este copiata cheia TOTP</strong></p>
+<p><strong>Versiunea CLASSIC UI</strong></p>
+<img src="/_resources/84fc6fc9c27d4331b7b2a8b3920a2540.png" alt="fcd7fbc658941884bdbb1fe0cb67ead2.png" width="799" height="469" class="jop-noMdConv" />
+<p><strong>Versiunea Modern UI</strong></p>
+<img src="/_resources/090ca280dd7a4998ab111ce75a8a6286.png" alt="8661866be7e9bb3aac3a3fa08b21a522.png" width="795" height="766" class="jop-noMdConv" />
+<p><strong>10. După ce Cheia TOTP a fost copiata din Zimbra WebUI aceasta va fi adăugată in KeePAssXC</strong></p>
+<p><img src="/_resources/5a2bedc20a3d4b3daf85900c08d1323a.png" /></p>
+<p><strong>11. Copiați cheia TOTP  pentru a fi inserata in Webmail Zimbra  (alternativ CTRL+C)</strong></p>
+<p><img src="/_resources/51e908a0332d4d62b48bcee8053200c3.png" /></p>
+<p><strong>12. Copiati codul TOTP si inserați in Webmail (Codul este generat o data la 30 sec. - încadrați-va in acest interval pentru copiere si inserare)</strong></p>
+<p><img src="/_resources/b6c0bc5b539a4a5081b01d521bbc03fb.png" /></p>
+<p><strong>13. Daca doriți sa setați cheia TOTP pe un dispozitiv mobil, afișați QR codul ca in imaginea de mai jos si scanați cu aplicația Autentficator de pe mobil</strong></p>
+<p><strong><img src="/_resources/98c675d09d304421b049c4777207cac9.png" /></strong></p>
+<p><strong>14. La  lansarea ulterioara  a aplicației KeePassXC  sa la blocarea automata a acestea va fi ceruta parola-master</strong></p>
+<p><img src="/_resources/30b5d606ec0a4e0db1b138464167a654.png" /></p>
+<p>Instrucțiune video <a title="https://www.youtube.com/watch?v=%5C_qRLJyhMNpw" href="https://www.youtube.com/watch?v=%5C_qRLJyhMNpw">https://www.youtube.com/watch?v=\_qRLJyhMNpw</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Procedura de activare a autentificării bifactoriale (2FA) - Classic UI]]></title>
+            <guid>213fcb94f74149169313b9461e334aad</guid>
+            <pubDate>Mon, 29 Jan 2024 08:37:50 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>1.</strong>      <strong>Accesarea interfeței web a serviciului.</strong></p>
+<p><strong>2.</strong>      <strong>Accesarea meniului “Preferințe” și activarea 2FA</strong></p>
+<p><strong>3.</strong>      <strong>Instrucțiunile de setare a autentificării bifactoriale.</strong></p>
+<p><strong>4.</strong>      <strong>Setarea codului de aplicație.</strong></p>
+<p><strong>5.</strong>      <strong>Codurile de unică utilizare.</strong></p>
+<p><strong>6.</strong>      <strong>Accesarea serviciului cu utilizarea autentificării bifactoriale.</strong></p>
+<p><strong>7.</strong>      <strong>Link-uri utile.</strong></p>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1.</strong> <strong>Accesați Webmail,</strong>  <br class="jop-noMdConv" /><br class="jop-noMdConv" /><a title="http://mail-institutie.gov.md" href="http://mail-institutie.gov.md">http://mail-institutie.gov.md</a> (sau  <br class="jop-noMdConv" /><br class="jop-noMdConv" /><a title="https://mail.domenu.md" href="https://mail.domenu.md">https://mail.domenu.md</a>)  <br class="jop-noMdConv" /><br class="jop-noMdConv" />Introduceți „Numele de utilizator” si „Parola” .  <br class="jop-noMdConv" /><br class="jop-noMdConv" />Daca nu cunoașteți datele de autentificare  <br class="jop-noMdConv" /><br class="jop-noMdConv" />(„Numele de utilizator” și „Parola”)  <br class="jop-noMdConv" /><br class="jop-noMdConv" />adresați-vă la administratorul local sau la  <br class="jop-noMdConv" /><br class="jop-noMdConv" />Centrul de Apel al IP STISC pentru resetarea acesteia  <br class="jop-noMdConv" /><br class="jop-noMdConv" />(tel. 820911 sau <a title="mailto:suport@stisc.gov.md" href="mailto:suport@stisc.gov.md">suport@stisc.gov.md</a> ).</td>
+<td><img src="/_resources/4f070b266a954f5b884013e9274982bf.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>2.</strong> <strong>Accesați meniul „Preferințe”,</strong> „Conturi„ și în  <br class="jop-noMdConv" /><br class="jop-noMdConv" />compartimentul „Setări de cont principal” dați  <br class="jop-noMdConv" /><br class="jop-noMdConv" />click pe „Configurare autentificare în doi pași”.</td>
+<td><img src="/_resources/3e5f0deb283141be89a6a881c8e976c7.png" alt="b617c2f58553beb9be81e5b3afaae983.png" width="416" height="251" class="jop-noMdConv" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>3.</strong>  <strong>Urmați instrucțiunile propuse în continuare:</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>a.</strong>      <strong>Începem configurarea.</strong></td>
+<td><img src="/_resources/19300f3b579b4d12b05ee6b2f15d4e94.png" alt="0eca1768956966317aa80b32532d4b56.png" width="395" height="227" class="jop-noMdConv" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>b.</strong>      <strong>Introduceți parola pentru</strong>   <br class="jop-noMdConv" /><strong>contul D-ră e-mail.</strong></td>
+<td><img width="396" height="231" src="/_resources/d6390b81407a4398995298bb0e81ecfc.png" v:shapes="Picture_x0020_4" class="jop-noMdConv" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>c.</strong>       <strong>Instalați aplicația ”Autentificator”</strong> pe smartphone   <br class="jop-noMdConv" />(Google Authenticator , Microsoft Authenticator sau  <br class="jop-noMdConv" /><br class="jop-noMdConv" />oricare altul. Accesați link-ul pentru a selecta  <br class="jop-noMdConv" /><br class="jop-noMdConv" />autentificatorul compatibil. A se vedea p.7).</td>
+<td><img src="/_resources/3c8f1065253c4a45836f41f7d72af121.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>d.</strong>      <strong>Va fi oferită o cheie unică</strong> (valabilă 1 ora) care va fi  <br class="jop-noMdConv" /><br class="jop-noMdConv" />folosită în aplicația ”Autentificator” de pe smartphone.  <br class="jop-noMdConv" /><br class="jop-noMdConv" />Nu treceți la următorul pas până când nu ați introdus  <br class="jop-noMdConv" /><br class="jop-noMdConv" />cheia în aplicația ”Autentificator”.  <br class="jop-noMdConv" /><br class="jop-noMdConv" />Folosiți varianta textuală a cheii (soluția nu oferă codul QR).</td>
+<td><img src="/_resources/9a979217e9c2493ca59bb8b7ba5590d4.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>e.</strong>         <strong>Deschideți aplicația Autentificator pe smartphone.</strong></p>
+<p>·               Aplicați pe butonul de adăugare a unei chei noi (În alte aplicații ”Autentificator” pot fi alte butoane și procedee similare de adăugare a cheii).</p>
+<p>·               Aplicați pe butonul de adăugare a cheii.</p>
+<p>·               Copiați cheia obținută în pasul precedent sau introduceți manual cheia. Dați o denumire acestei chei în câmpul ”Account Name”. Aplicați butonul ”Add”.</p>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/_resources/339079b8980347b78169ebf748b764bf.png" /></td>
+<td><img src="/_resources/71c25579524c414b9b4f6faf41196088.png" /></td>
+<td><img src="/_resources/dd8809ad103940789d0bdb0f9a4d03e5.png" /></td>
+<td><img src="/_resources/3eb2607380724d3db6e07f46f9522a01.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>f.</strong>          <strong>Aplicați pe butonul ”Următorul”</strong>  <br class="jop-noMdConv" /><br class="jop-noMdConv" />în fereastra din pasul d).</td>
+<td><img src="/_resources/b05ebabe16874737a93bb2aea7efa48f.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>g.</strong>          <strong>Introduceti codul</strong> din aplicația ”Autentificator” de pe smartphone.  <br class="jop-noMdConv" /><br class="jop-noMdConv" />Cheia temporară se modifică o dată pe minut, astfel nu ezitați să introduceți  <br class="jop-noMdConv" /><br class="jop-noMdConv" />cheia actuală din ”Autentificator”.</td>
+<td><img src="/_resources/7bf4e55262e34d02ac84b104f3cf2b7d.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>h.</strong>         <strong>Finalizați configurările.</strong></td>
+<td><img src="/_resources/e67341c7fa094bf99c586e9d49d69e85.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>4. Codurile de aplicație pot fi folosite pentru a seta clienții poștali Microsoft Outlook , Mozilla Thunderbird, The Bat , Android , IOS , etc.</strong></p>
+<p><strong>Pentru a adăuga un cod de aplicație accesați butonul respectiv în preferințele contului.</strong></p>
+<img src="/_resources/0f2fe81cc0b046f2a3b351910611370b.png" alt="1935b2df3cf4f733efc6a225503c192c.png" width="878" height="311" class="jop-noMdConv" />
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dați o denumire</strong> pentru codul respectiv și aplicați ”Următorul”.</td>
+<td><img src="/_resources/1b15ddb369d74c4397311655908027a9.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Copiați codul</strong> oferit pentru a fi setat ca parolă pentru clientul poștal. Codul poate fi  <br class="jop-noMdConv" /><br class="jop-noMdConv" />salvat temporar într-un fișier sau transmis prin orice metodă comodă; e-mail, chat, sau sms, etc.  <br class="jop-noMdConv" /><br class="jop-noMdConv" />Codul poate fi revocat și generat unul nou. Aplicați ”Închidere” la final.</td>
+<td><img src="/_resources/b32ec6ed3eeb4f7f8029ba45614de6a0.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>În aplicația mail-client setați contul D-ra</strong> cu codul obținut în pasul precedent (ca exemplu în Microsoft Outlook).</td>
+<td><img src="/_resources/2a6134e341d842bfb0224718d0688a38.png" /></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Toate codurile de aplicație și data accesării vor fi vizibile în preferințele contului. Din acest meniu pot</strong></p>
+<p><strong>fi revocate codurile în caz ca aplicația mail-client va fi reinstalată sau inaccesibilă.</strong></p>
+<p> <img src="/_resources/959c77a272de4293bf5bd6687feef74f.png" alt="e84875718dcf7828362fbda75b1c2a9d.png" width="799" height="176" class="jop-noMdConv" /></p>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>5.</strong>      <strong>Codurile de unică utilizare</strong> pot fi folosite în cazurile când aplicația ”Autentificator” nu este disponibilă (nu aveți acces la smartfonul D-ră, sau a fost eliminată aplicația Autentificator, etc). Acestea pot fi salvate într-o locație privată sau imprimate pe suport de hârtie. Prin aplicarea butonului „Generare coduri noi” pot fi revocate și generate altele.</td>
+<td><img src="/_resources/031e6d75c5284c8bb21db7a37c0a41ef.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>6.</strong>      <strong>Accesarea serviciului cu utilizarea autentificării bifactoriale.</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Reveniți la pagina de logare</strong> în Webmail prin de-logare (sau închidere tab în browser). Introduceți „Numele de utilizator” și ”Parola”. Apăsați pe butonul ”Autentificare”.</td>
+<td><img src="/_resources/ce5e77c5e85544449dd3e5e51e10d3d1.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Va apărea fereastra pentru</strong> introducerea codului de unică folosință din aplicația ”Autentificator” din smartfon. Aplicați cu ”Verify”. În caz că nu aveți acces la ”Autentificator” folosiși unul din cele 10 coduri generate la punctul 5)</td>
+<td><img src="/_resources/fcf3ac9f0acd4ba480debc02ad5d5720.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dispozitive de încredere.</strong> Setarea bifei „Acest computer este de încredere„ permite adăugarea dispozitivul într-o lista de acces pentru a omite introducerea codului la următoarele legări timp de 30 zile de pe acest dispozitiv.</td>
+<td><img src="/_resources/d3bc54e71e8b46afbca432ff5d732e0b.png" /></td>
+</tr>
+</tbody>
+</table>
+<p> <strong>În final veți fi redirecționat în contul D-ră al Serviciului de Poșta Electronică Guvernamentală.</strong></p>
+<p> <strong>Revocarea dispozitivelor de încredere.</strong></p>
+<p>În cazul când este necesar de a revoca un dispozitiv din lista de acces, în setările contului se aplică cu ”revocă acest dispozitiv”</p>
+<p><img src="/_resources/aa371998cb334319a938ae3c07db2355.png" /></p>
+<p><strong>7.</strong>      <strong>Link-uri utile</strong></p>
+<p>·            <strong>Informația oficială referitor la autentificarea bifactorială</strong> <a title="https://www.zimbra.com/business-email-collaboration/secure-email-features/two-factor-authentication/" href="https://www.zimbra.com/business-email-collaboration/secure-email-features/two-factor-authentication/"><strong>https://www.zimbra.com/business-email-collaboration/secure-email-features/two-factor-authentication/</strong></a></p>
+<p>·           <strong>Aplicații ”Autentificator”:</strong></p>
+<p>o   <strong>Google Authenticator</strong> <a title="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2" href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2"><strong>https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2</strong></a></p>
+<p>o   <strong>Microsoft Authenticator</strong> <a title="https://play.google.com/store/apps/details?id=com.azure.authenticator" href="https://play.google.com/store/apps/details?id=com.azure.authenticator"><strong>https://play.google.com/store/apps/details?id=com.azure.authenticator</strong></a></p>
+<p>o <strong>PrivacyIDEA</strong> <a title="https://play.google.com/store/apps/details?id=it.netknights.piauthenticator" href="https://play.google.com/store/apps/details?id=it.netknights.piauthenticator"><strong>https://play.google.com/store/apps/details?id=it.netknights.piauthenticator</strong></a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Setarea autentificarii bifactoriale (2FA) in Zimbra - Modern UI]]></title>
             <guid>1e1aa2728150418faa6421ed621150f6</guid>
             <pubDate>Fri, 26 Jan 2024 14:17:13 GMT</pubDate>
             <content:encoded><![CDATA[<p>Bună ziua clienți, parteneri și prietenii Zimbra,</p>
@@ -86,7 +448,7 @@ Acest link este o scurtătura catre noutățile de pe site care poate fi utiliza
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Previzualizarea la imprimare a unui atașament în Zimbra Modern UI]]></title>
+            <title><![CDATA[Previzualizarea la imprimare a unui atașament în Zimbra - Modern UI]]></title>
             <guid>8026bb238b054b208aa770ea395cd899</guid>
             <pubDate>Thu, 25 Jan 2024 13:14:22 GMT</pubDate>
             <content:encoded><![CDATA[<p><strong>Previzualizarea la imprimare a unui atașament în Zimbra Modern UI</strong></p>
@@ -104,7 +466,7 @@ In dependenta de setarile locale a imprimantelor puteti printa prin (1) si (2). 
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Adăugarea de imagini în semnăturile tale de e-mail în Zimbra Modern UI]]></title>
+            <title><![CDATA[Adăugarea de imagini în semnăturile tale de e-mail în Zimbra - Modern UI]]></title>
             <guid>13ba13b3f002461c82f2f244e6c24a58</guid>
             <pubDate>Thu, 25 Jan 2024 12:10:42 GMT</pubDate>
             <content:encoded><![CDATA[<p><strong>Adăugarea de imagini în semnăturile tale de e-mail în UI modern</strong></p>
